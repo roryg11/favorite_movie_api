@@ -1,0 +1,9 @@
+<%= params.inspect %>
+
+<ul>
+  <% @movies.each do |movie| %>
+    <li><%= movie.title %>
+    <%= movie.year %>
+    <%= movie.plot %></li>
+  <% end %>
+</ul>
